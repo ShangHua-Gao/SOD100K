@@ -26,7 +26,6 @@ cd SOD100K/CSF
 
 Download the following datasets and unzip them into `data` folder.
 
-* [MSRA-B and HKU-IS](https://drive.google.com/open?id=14RA-qr7JxU6iljLv6PbWUCQG0AJsEgmd) dataset. The .lst file for training is `data/msrab_hkuis/msrab_hkuis_train_no_small.lst`.
 * [DUTS](https://drive.google.com/open?id=1immMDAPC9Eb2KCtGi6AdfvXvQJnSkHHo) dataset. The .lst file for training is `data/DUTS/DUTS-TR/train_pair.lst`.
 
 ### 3. Download the pre-trained models for backbone
@@ -37,6 +36,7 @@ All you need to do is to set the default path of pytorch cache in `main.py`
 ```
 res2net_path = '/home/shgao/.cache/torch/checkpoints/res2net50_v1b_26w_4s-3cf99910.pth'
 ```
+[The pretrained model of res2net](https://github.com/Res2Net/Res2Net-PretrainedModels/blob/master/res2net_v1b.py)
 ### 4. Train
 
 1. Set the `--train_root` and `--train_list` path in `train.sh` correctly.
