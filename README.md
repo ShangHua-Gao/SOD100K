@@ -1,9 +1,9 @@
-# Sal100K
+# SOD100K
 The official repo of the ECCV 2020 paper Highly Efficient Salient Object Detection with 100K Parameters.
 # CSNet
 CSNet will be released in the next few days.
 
-# CSF 
+# CSF + Res2Net
 `Cross Stage Fusion (CSF) part + Res2Net` is in the `CSF` subfolder.
 CSF can be integrated into ImageNet pre-trained large models such as Res2Net to achieve SOTA performance with less parameters.
 
