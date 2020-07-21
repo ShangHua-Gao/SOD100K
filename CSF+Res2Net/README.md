@@ -2,7 +2,7 @@
 
 ## Introduction
 The repo is the combination of Cross Stage Fusion (CSF) part of CSNet and Res2Net-50 backbone model.
-Compared with existing models, CSF achieves better performance with less parameters and FLOPS.
+Compared with existing ImageNet pre-trained large models, CSF achieves better performance with less parameters and FLOPS.
 
 
 ## Evaluation
@@ -19,7 +19,7 @@ You may refer to this repo for results evaluation: [SalMetric](https://github.co
 
 ```shell
 git clone https://github.com/MCG-NKU/SOD100K.git
-cd SOD100K/CSF
+cd SOD100K/CSF+Res2Net
 ```
 
 ### 2. Download the datasets
@@ -62,7 +62,7 @@ All results saliency maps will be stored under `results/run-*-sal-*` folders in 
 
 ### 6. Pre-trained models
 
-The pretrained models for CSF is now available on [ONEDRIVE]().
+The pretrained models for CSF is now available on [ONEDRIVE](https://mailnankaieducn-my.sharepoint.com/:u:/g/personal/shgao_mail_nankai_edu_cn/EWYBOMYWNklLlVG38QlmozkBEIPgaCzsrrPq7BBFUEGjRg?e=ZTtbnM).
 
 Note: Only support `bath_size=1`.
 
