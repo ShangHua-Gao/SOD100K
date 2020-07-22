@@ -6,7 +6,7 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 import torch.utils.model_zoo as model_zoo
 from torch.nn import init
-from gOctConv import gOctaveConv, gOctaveCBR
+from .gOctConv import gOctaveConv, gOctaveCBR
 import os
 affine_par = True
 
