@@ -141,7 +141,7 @@ class Res2Net(nn.Module):
                 nn.init.constant_(m.bias, 0)
 
     def load_pretrained_model(self, model):
-        self.load_state_dict(model, strict=True)
+        self.load_state_dict(model, strict=False)
 
     def _make_layer(self, block, planes, blocks, stride=1,dilation__ = 1):
         downsample = None
