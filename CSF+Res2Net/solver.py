@@ -26,7 +26,7 @@ class Solver(object):
         if config.mode == 'test':
             print('Loading pre-trained model from %s...' % self.config.model)
             if self.config.cuda:
-                self.net.load_state_dict(torch.load(self.config.model))
+                self.net.load_state_dict(torch.load(self.config.model), strict=False)
             else:
                 self.net.load_state_dict(torch.load(self.config.model, map_location='cpu'))
             self.net.eval()
