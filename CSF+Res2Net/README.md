@@ -60,12 +60,13 @@ For all datasets testing used in our paper: `0` indicates the gpu ID to use
 All results saliency maps will be stored under `results/run-*-sal-*` folders in .png formats.
 
 
-### 6. Pre-trained models
+### 6. Pre-trained models and Prediction results
 
 The pretrained models for CSF is now available on [ONEDRIVE](https://mailnankaieducn-my.sharepoint.com/:u:/g/personal/shgao_mail_nankai_edu_cn/EWYBOMYWNklLlVG38QlmozkBEIPgaCzsrrPq7BBFUEGjRg?e=ZTtbnM).
 
 Note: Only support `bath_size=1`.
 
+Prediction results on [ONEDRIVE](https://mailnankaieducn-my.sharepoint.com/:u:/g/personal/shgao_mail_nankai_edu_cn/EVBf1QE8Y5ZBhma4MEYABNMBnnMxOMiS6qAyPz3Kkv6bqA?e=jpcIjP).
 
 ## Citation
 If you find this work or code is helpful in your research, please cite:
