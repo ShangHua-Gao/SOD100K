@@ -47,6 +47,8 @@ For commercial use, you can also email us to get more details.
 
 ```E-amil: shgao(at)live.com AND cmm(at)nankai.edu.cn```
 
+If you do not receive my reply within 1 week, feel free to ask my again ( better with a different e-mail in case the mail was judged as spam by the system).
+
 ## Citation
 If you find this work or code is helpful in your research, please cite:
 ```
