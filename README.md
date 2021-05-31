@@ -28,3 +28,7 @@ If you find this work or code is helpful in your research, please cite:
 }
 
 ```
+
+## License
+
+The source code is free for research and education use only. Any comercial use should get formal permission first.
