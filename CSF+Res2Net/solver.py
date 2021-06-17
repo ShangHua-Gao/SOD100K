@@ -28,7 +28,7 @@ class Solver(object):
             if self.config.cuda:
                 self.net.load_state_dict(torch.load(self.config.model), strict=False)
             else:
-                self.net.load_state_dict(torch.load(self.config.model, map_location='cpu'))
+                self.net.load_state_dict(torch.load(self.config.model, map_location='cpu'), strict=False)
             self.net.eval()
 
     # print the network information and parameter numbers
@@ -51,7 +51,7 @@ class Solver(object):
         if self.config.load == '':
             self.net.base.load_pretrained_model(torch.load(self.config.pretrained_model))
         else:
-            self.net.load_state_dict(torch.load(self.config.load))
+            self.net.load_state_dict(torch.load(self.config.load), strict=False)
 
         self.lr = self.config.lr
         self.wd = self.config.wd
