@@ -1,0 +1,5 @@
+/media/data/Projects/Others/flash/autosalient/SalMetric/build/CMakeFiles/rebuild_cache.dir
+/media/data/Projects/Others/flash/autosalient/SalMetric/build/CMakeFiles/edit_cache.dir
+/media/data/Projects/Others/flash/autosalient/SalMetric/build/src/CMakeFiles/rebuild_cache.dir
+/media/data/Projects/Others/flash/autosalient/SalMetric/build/src/CMakeFiles/salmetric.dir
+/media/data/Projects/Others/flash/autosalient/SalMetric/build/src/CMakeFiles/edit_cache.dir

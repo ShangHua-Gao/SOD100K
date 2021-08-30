@@ -1,0 +1,30 @@
+TASK: "csnet-L-x2"
+
+GPU: 0
+
+MODEL:
+  ARCH: "csnet"
+  BASIC_SPLIT: [0.5,0.5]
+
+DATA:
+  DIR: "datasets/sal/DUTS-TR"
+  PRETRAIN: ''
+  BATCH_SIZE: 24
+  WORKERS: 8
+  IMAGE_H: 224
+  IMAGE_W: 224
+  RESUME: ""
+
+VAL:
+  DIR: "datasets/sal/ECSSD"
+
+TEST:
+  DATASET_PATH: 'datasets/sal'
+  DATASETS: ['ECSSD']
+  INTERVAL: 5
+  ENABLE: False
+  IMAGE_H: 224
+  IMAGE_W: 224
+  TESTALL: False
+  CHECKPOINT:  "checkpoints/csnet-L-x2/csnet-L-x2.pth.tar"
+  MODEL_CONFIG: "checkpoints/csnet-L-x2/csnet-L-x2.bin"

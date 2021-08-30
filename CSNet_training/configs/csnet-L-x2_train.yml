@@ -1,0 +1,63 @@
+TASK: "csnet-L-x2_train"
+
+GPU: 0
+
+MODEL:
+  ARCH: "csnet"
+  BASIC_SPLIT: [0.5,0.5]
+
+AUTO:
+  ENABLE: True
+  PREDEFINE: ''
+  FINETUNE: 300
+  EXPAND: 2.0
+  LOAD_WEIGHT: "FINETUNE"
+  FLOPS:
+    ENABLE: True
+    WEIGHT: 3.0
+    EXPAND: 1.0
+
+FINETUNE:
+  THRES: 1e-20
+
+LOSS:
+  MLOSS: 1
+
+DATA:
+  DIR: "datasets/sal/DUTS-TR"
+  PRETRAIN: ''
+  BATCH_SIZE: 24
+  WORKERS: 8
+  IMAGE_H: 224
+  IMAGE_W: 224
+  RESUME: ""
+
+VAL:
+  DIR: "datasets/sal/ECSSD"
+
+TEST:
+  DATASET_PATH: 'datasets/sal'
+  DATASETS: ['ECSSD']
+  INTERVAL: 5
+  ENABLE: False
+  IMAGE_H: 224
+  IMAGE_W: 224
+  TESTALL: False
+  CHECKPOINT:  ""
+
+SOLVER:
+  METHOD: 'Adam_dynamic_weight_decay'
+  LR: 1e-4
+  ADJUST_STEP: True
+  STEPS: [200,250]
+  MAX_EPOCHS: 300
+  FINETUNE:
+    METHOD: 'Adam'
+    LR: 1e-4
+    ADJUST_STEP: True
+    STEPS: [50,100]
+
+PRUNE:
+  BNS: True
+  SHOW: True
+
