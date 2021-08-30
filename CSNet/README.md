@@ -52,6 +52,16 @@ If you do not receive my reply within 1 week, feel free to ask my again ( better
 ## Citation
 If you find this work or code is helpful in your research, please cite:
 ```
+@ARTICLE{21PAMI-Sal100K,
+  author={Ming-Ming Cheng and Shang-Hua Gao and Ali Borji and Yong-Qiang Tan and Zheng Lin and Meng Wang},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={A Highly Efficient Model to Study the Semantics of Salient Object Detection}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={},
+  doi={10.1109/TPAMI.2021.3107956}
+}
 @InProceedings{gao2020sod100k,
   author = {Gao, Shang-Hua and Tan, Yong-Qiang and Cheng, Ming-Ming and Lu, Chengze and Chen, Yunpeng and Yan, Shuicheng},
   title = {Highly Efficient Salient Object Detection with 100K Parameters},
