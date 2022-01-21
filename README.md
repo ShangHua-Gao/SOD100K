@@ -16,7 +16,7 @@ CSF can be integrated into ImageNet pre-trained large models such as Res2Net to 
 If you find this work or code is helpful in your research, please cite:
 ```
 @ARTICLE{21PAMI-Sal100K,
-  author={Ming-Ming Cheng and Shang-Hua Gao and Ali Borji and Yong-Qiang Tan and Zheng Lin and Meng Wang},
+  author={Ming-Ming Cheng* and Shanghua Gao* and Ali Borji and Yong-Qiang Tan and Zheng Lin and Meng Wang},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
   title={A Highly Efficient Model to Study the Semantics of Salient Object Detection}, 
   year={2021},
@@ -26,16 +26,16 @@ If you find this work or code is helpful in your research, please cite:
   doi={10.1109/TPAMI.2021.3107956}
 }
 @InProceedings{gao2020sod100k,
-  author = {Gao, Shang-Hua and Tan, Yong-Qiang and Cheng, Ming-Ming and Lu, Chengze and Chen, Yunpeng and Yan, Shuicheng},
+  author = {Gao, Shanghua and Tan, Yong-Qiang and Cheng, Ming-Ming and Lu, Chengze and Chen, Yunpeng and Yan, Shuicheng},
   title = {Highly Efficient Salient Object Detection with 100K Parameters},
   booktitle = {ECCV},
   year = {2020},
 }
 @article{gao2019res2net,
   title={Res2Net: A New Multi-scale Backbone Architecture},
-  author={Gao, Shang-Hua and Cheng, Ming-Ming and Zhao, Kai and Zhang, Xin-Yu and Yang, Ming-Hsuan and Torr, Philip},
+  author={Gao, Shanghua and Cheng, Ming-Ming and Zhao, Kai and Zhang, Xin-Yu and Yang, Ming-Hsuan and Torr, Philip},
   journal={IEEE TPAMI},
-  year={2020},
+  year={2021},
   doi={10.1109/TPAMI.2019.2938758}, 
 }
 
