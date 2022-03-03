@@ -43,5 +43,5 @@ If you find this work or code is helpful in your research, please cite:
 
 ## License
 
-The source code is free for research and education use only. Any comercial use should get formal permission first.
-
+License
+The code is released under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License](https://mmcheng.net/notice/#:~:text=Creative%20Commons%20Attribution%2DNonCommercial%2DShareAlike%204.0%20International%20Public%20License) for Noncommercial use only. Any commercial use should get formal permission first.
